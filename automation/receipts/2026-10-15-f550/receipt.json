@@ -1,0 +1,261 @@
+{
+  "schema_version": 1,
+  "repository": "blackboxprogramming/blackroad-os-mesh",
+  "observed_at": "2026-10-15T15:17:15.806Z",
+  "session": "github-autonomy-f550dadda6a7",
+  "base_sha": "26bcafe0b088e522fa79aef46651859f05903f98",
+  "integrated_sha": "3b92af844b6b92ef769d42370cf07b815628b0da",
+  "source_change": "45 workflows archived, explicit local verifier/docs added; application/dependencies unchanged",
+  "preservation": {
+    "preserved": true,
+    "unrelated": 84,
+    "archives": true,
+    "archiveCount": 45,
+    "active": 0
+  },
+  "scheduled_workflows_retired": 14,
+  "verification": [
+    {
+      "command": "python3 scripts/local_check.py --structure-only",
+      "exit": 0,
+      "runtime": "NOT_RUN"
+    },
+    {
+      "command": "python3 -m unittest discover -s scripts/tests -v",
+      "exit": 0,
+      "methods": 7
+    },
+    {
+      "command": "python3 scripts/local_check.py",
+      "exit": 2,
+      "runtime": "BLOCKED",
+      "reasons": [
+        "Vitest command without a declared dependency",
+        "No application test corpus",
+        "Local TypeScript/Vitest/Hono dependencies unavailable"
+      ]
+    }
+  ],
+  "dependency_proposal_diffs": [
+    {
+      "number": 14,
+      "head": "5a925da2d09f83ccc5939f104cc983bf95660ed8",
+      "base": "26bcafe0b088e522fa79aef46651859f05903f98",
+      "files": [
+        {
+          "filename": "package-lock.json",
+          "status": "modified",
+          "sha": "cf8404db46b2545faa241af06582b3f1200b91ba"
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "head": "d043dd3fc812ccaf9b147f3e0d09c36f64fc183f",
+      "base": "26bcafe0b088e522fa79aef46651859f05903f98",
+      "files": [
+        {
+          "filename": "package-lock.json",
+          "status": "modified",
+          "sha": "cf8404db46b2545faa241af06582b3f1200b91ba"
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "head": "53f5bfb5e63a519151650e62bc73e11e46e298f0",
+      "base": "26bcafe0b088e522fa79aef46651859f05903f98",
+      "files": [
+        {
+          "filename": "package-lock.json",
+          "status": "modified",
+          "sha": "cf8404db46b2545faa241af06582b3f1200b91ba"
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "head": "958365de6ad949561b6925ddfc682ca5ccbdb75c",
+      "base": "26bcafe0b088e522fa79aef46651859f05903f98",
+      "files": [
+        {
+          "filename": "package-lock.json",
+          "status": "modified",
+          "sha": "cf8404db46b2545faa241af06582b3f1200b91ba"
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "head": "d423665e0a1bb078fdaf26567d6e04a8b05e6ef0",
+      "base": "26bcafe0b088e522fa79aef46651859f05903f98",
+      "files": [
+        {
+          "filename": "package-lock.json",
+          "status": "modified",
+          "sha": "cf8404db46b2545faa241af06582b3f1200b91ba"
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "head": "d8f970852768ae5940e4b6faaabd585c073e3446",
+      "base": "26bcafe0b088e522fa79aef46651859f05903f98",
+      "files": [
+        {
+          "filename": "package-lock.json",
+          "status": "modified",
+          "sha": "ded27a4452f1f0aba36901b118dd779fb08da3fc"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "head": "dd887d5929b83ee8d0fbebe44eef0cb08db41f81",
+      "base": "26bcafe0b088e522fa79aef46651859f05903f98",
+      "files": [
+        {
+          "filename": "package-lock.json",
+          "status": "modified",
+          "sha": "ded27a4452f1f0aba36901b118dd779fb08da3fc"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "head": "37257be5b1897e87e0568b21d166c578e80be420",
+      "base": "26bcafe0b088e522fa79aef46651859f05903f98",
+      "files": [
+        {
+          "filename": "package-lock.json",
+          "status": "modified",
+          "sha": "ded27a4452f1f0aba36901b118dd779fb08da3fc"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "head": "88b70750e7a28d6846620c1ebe21b7d99dc4d748",
+      "base": "26bcafe0b088e522fa79aef46651859f05903f98",
+      "files": [
+        {
+          "filename": "package-lock.json",
+          "status": "modified",
+          "sha": "ded27a4452f1f0aba36901b118dd779fb08da3fc"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "head": "0b46f8d25028aa8cccd488c5b18b8d7051ebf7b9",
+      "base": "26bcafe0b088e522fa79aef46651859f05903f98",
+      "files": [
+        {
+          "filename": "package-lock.json",
+          "status": "modified",
+          "sha": "ded27a4452f1f0aba36901b118dd779fb08da3fc"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "head": "995c8a69cff34a39a44e315309afc6c6db8b42b3",
+      "base": "26bcafe0b088e522fa79aef46651859f05903f98",
+      "files": [
+        {
+          "filename": "package-lock.json",
+          "status": "modified",
+          "sha": "78af9c0db37ff1ec2d058cc2c706596562a7c422"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "head": "f79f9a305587e0891d0bab7fd57c8e867369e1c1",
+      "base": "26bcafe0b088e522fa79aef46651859f05903f98",
+      "files": [
+        {
+          "filename": "package-lock.json",
+          "status": "modified",
+          "sha": "78af9c0db37ff1ec2d058cc2c706596562a7c422"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "head": "18f3470b46d0a032ee290dad0e56e10fb3de99c1",
+      "base": "26bcafe0b088e522fa79aef46651859f05903f98",
+      "files": [
+        {
+          "filename": "package-lock.json",
+          "status": "modified",
+          "sha": "b5cc078050839eba53967945f4deccd458814dd0"
+        }
+      ]
+    }
+  ],
+  "closed_exact_duplicates": [
+    {
+      "number": 13,
+      "duplicate_of": 14,
+      "head": "d043dd3fc812ccaf9b147f3e0d09c36f64fc183f"
+    },
+    {
+      "number": 12,
+      "duplicate_of": 14,
+      "head": "53f5bfb5e63a519151650e62bc73e11e46e298f0"
+    },
+    {
+      "number": 11,
+      "duplicate_of": 14,
+      "head": "958365de6ad949561b6925ddfc682ca5ccbdb75c"
+    },
+    {
+      "number": 10,
+      "duplicate_of": 14,
+      "head": "d423665e0a1bb078fdaf26567d6e04a8b05e6ef0"
+    },
+    {
+      "number": 8,
+      "duplicate_of": 9,
+      "head": "dd887d5929b83ee8d0fbebe44eef0cb08db41f81"
+    },
+    {
+      "number": 7,
+      "duplicate_of": 9,
+      "head": "37257be5b1897e87e0568b21d166c578e80be420"
+    },
+    {
+      "number": 6,
+      "duplicate_of": 9,
+      "head": "88b70750e7a28d6846620c1ebe21b7d99dc4d748"
+    },
+    {
+      "number": 5,
+      "duplicate_of": 9,
+      "head": "0b46f8d25028aa8cccd488c5b18b8d7051ebf7b9"
+    },
+    {
+      "number": 3,
+      "duplicate_of": 4,
+      "head": "f79f9a305587e0891d0bab7fd57c8e867369e1c1"
+    }
+  ],
+  "retained_unique_dependency_prs": [
+    14,
+    9,
+    4,
+    2
+  ],
+  "retained_draft_runtime_pr": {
+    "number": 1,
+    "head": "4e47d3844a23b6d32a0e60f2b2434dd9acb12c35"
+  },
+  "limits": [
+    "Runtime,security,deployment and actual Worker engine not qualified by verifier tests",
+    "Repository Actions settings and existing jobs not modified; old branches retain workflow source",
+    "Mesh Issues disabled: application blocker retained in Garage21",
+    "Local merge worker remains uninstalled on authenticated owner hardware"
+  ],
+  "next_issue": "https://github.com/blackboxprogramming/blackroad-garage/issues/21"
+}

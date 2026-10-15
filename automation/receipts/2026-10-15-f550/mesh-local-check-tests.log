@@ -1,0 +1,12 @@
+test_changed_archive_is_not_preserved (test_local_check.LocalCheckTests.test_changed_archive_is_not_preserved) ... ok
+test_changed_runtime_source_requires_requalification (test_local_check.LocalCheckTests.test_changed_runtime_source_requires_requalification) ... ok
+test_exact_retirement_has_distinct_unrun_runtime_state (test_local_check.LocalCheckTests.test_exact_retirement_has_distinct_unrun_runtime_state) ... ok
+test_full_default_refuses_missing_runtime_evidence (test_local_check.LocalCheckTests.test_full_default_refuses_missing_runtime_evidence) ... ok
+test_manifest_cannot_read_an_outside_path (test_local_check.LocalCheckTests.test_manifest_cannot_read_an_outside_path) ... ok
+test_missing_archive_is_failure (test_local_check.LocalCheckTests.test_missing_archive_is_failure) ... ok
+test_restored_workflow_is_not_retired (test_local_check.LocalCheckTests.test_restored_workflow_is_not_retired) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.771s
+
+OK
