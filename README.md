@@ -47,3 +47,12 @@ See [LICENSE](./LICENSE) for full terms.
 [blackroad.io](https://blackroad.io) · [GitHub](https://github.com/BlackRoad-OS-Inc) · [Brand](https://brand.blackroad.io)
 
 </div>
+
+## Verification without Actions
+
+All 45 default-branch Actions workflows are archived intact in
+[automation/archived-workflows](automation/archived-workflows). Use the
+[local verification commands and migration limits](automation/README.md).
+`python3 scripts/local_check.py --structure-only` verifies retirement; the default
+check currently reports runtime BLOCKED because application tests/Vitest are missing.
+Original runtime source and the separate draft repair PR #1 remain preserved.

@@ -1,0 +1,302 @@
+{
+  "schema_version": 1,
+  "repository": "blackboxprogramming/blackroad-os-mesh",
+  "base_sha": "26bcafe0b088e522fa79aef46651859f05903f98",
+  "reason": "Owner requires GitHub work without paid services or Actions",
+  "workflows": [
+    {
+      "original": ".github/workflows/auto-assign.yml",
+      "archive": "automation/archived-workflows/auto-assign.yml",
+      "git_blob": "22fe566e5ade840126a3cecef0b893b163b8e8c8",
+      "mode": "100644"
+    },
+    {
+      "original": ".github/workflows/auto-deploy.yml",
+      "archive": "automation/archived-workflows/auto-deploy.yml",
+      "git_blob": "00958facebecb7e5cd90acc85def633d1119d7c0",
+      "mode": "100644"
+    },
+    {
+      "original": ".github/workflows/auto-merge.yml",
+      "archive": "automation/archived-workflows/auto-merge.yml",
+      "git_blob": "063e2ad2fb2358dd14a619e2879da8c86bd1c803",
+      "mode": "100644"
+    },
+    {
+      "original": ".github/workflows/autonomous-cross-repo.yml",
+      "archive": "automation/archived-workflows/autonomous-cross-repo.yml",
+      "git_blob": "cd34cddd3b00d4acec8f52609e21502dafb19f46",
+      "mode": "100644"
+    },
+    {
+      "original": ".github/workflows/autonomous-dependency-manager.yml",
+      "archive": "automation/archived-workflows/autonomous-dependency-manager.yml",
+      "git_blob": "8e2068579ca8786de7d647a1c4ff21635c5c4479",
+      "mode": "100644"
+    },
+    {
+      "original": ".github/workflows/autonomous-issue-manager.yml",
+      "archive": "automation/archived-workflows/autonomous-issue-manager.yml",
+      "git_blob": "fbf98e7aac20167273c3dcfe40e541183a5662f3",
+      "mode": "100644"
+    },
+    {
+      "original": ".github/workflows/autonomous-orchestrator.yml",
+      "archive": "automation/archived-workflows/autonomous-orchestrator.yml",
+      "git_blob": "29af551377bc88b5bef12024623006de7f838ac4",
+      "mode": "100644"
+    },
+    {
+      "original": ".github/workflows/autonomous-self-healer.yml",
+      "archive": "automation/archived-workflows/autonomous-self-healer.yml",
+      "git_blob": "8ec60a91e641dcf0d8f8a672c000139e148c5d72",
+      "mode": "100644"
+    },
+    {
+      "original": ".github/workflows/blackroad-agents.yml",
+      "archive": "automation/archived-workflows/blackroad-agents.yml",
+      "git_blob": "782641b92147b4e048c3b5926718bc8fc75cbb16",
+      "mode": "100644"
+    },
+    {
+      "original": ".github/workflows/blackroad-auto-merge.yml",
+      "archive": "automation/archived-workflows/blackroad-auto-merge.yml",
+      "git_blob": "7229822d7347c0b243d3da17b1676d278ee7cfa1",
+      "mode": "100644"
+    },
+    {
+      "original": ".github/workflows/blackroad-ci.yml",
+      "archive": "automation/archived-workflows/blackroad-ci.yml",
+      "git_blob": "1f595f78a828291367d7bb227539c25fe3aba066",
+      "mode": "100644"
+    },
+    {
+      "original": ".github/workflows/blackroad-codeql-analysis.yml",
+      "archive": "automation/archived-workflows/blackroad-codeql-analysis.yml",
+      "git_blob": "e7d6d625d682dbc514e48554ec05e2760df5b35b",
+      "mode": "100644"
+    },
+    {
+      "original": ".github/workflows/ci-cd.yml",
+      "archive": "automation/archived-workflows/ci-cd.yml",
+      "git_blob": "828f3aa96b5e0cb2fb25011ab17b43ef871f3421",
+      "mode": "100644"
+    },
+    {
+      "original": ".github/workflows/ci.yml",
+      "archive": "automation/archived-workflows/ci.yml",
+      "git_blob": "148d722978b183be733d885d31d613c890a2bca4",
+      "mode": "100644"
+    },
+    {
+      "original": ".github/workflows/deploy-all.yml",
+      "archive": "automation/archived-workflows/deploy-all.yml",
+      "git_blob": "9d3a05c82bbdbf9b8d41dd251a8e88860ef3d774",
+      "mode": "100644"
+    },
+    {
+      "original": ".github/workflows/deploy-browser-os.yml",
+      "archive": "automation/archived-workflows/deploy-browser-os.yml",
+      "git_blob": "3c9def3d7aa6cbb41210ad06dcf1038ef4ed1446",
+      "mode": "100644"
+    },
+    {
+      "original": ".github/workflows/deploy-cloudflare-all.yml",
+      "archive": "automation/archived-workflows/deploy-cloudflare-all.yml",
+      "git_blob": "77fef08c0ed643daff3390014c872b24c4866dec",
+      "mode": "100644"
+    },
+    {
+      "original": ".github/workflows/deploy-cloudflare.yml",
+      "archive": "automation/archived-workflows/deploy-cloudflare.yml",
+      "git_blob": "56950aee88068540b1d188773233df59c669d499",
+      "mode": "100644"
+    },
+    {
+      "original": ".github/workflows/deploy-droplet.yml",
+      "archive": "automation/archived-workflows/deploy-droplet.yml",
+      "git_blob": "dc596c7417eed8b1e3febe7c29e45770c4b39643",
+      "mode": "100644"
+    },
+    {
+      "original": ".github/workflows/deploy-multi-cloud.yml",
+      "archive": "automation/archived-workflows/deploy-multi-cloud.yml",
+      "git_blob": "2c8f6a64a5913c7a121871dc20b22c1c9ebd564e",
+      "mode": "100644"
+    },
+    {
+      "original": ".github/workflows/deploy-orchestrator.yml",
+      "archive": "automation/archived-workflows/deploy-orchestrator.yml",
+      "git_blob": "db64224d3ef5603260739e3193dbe79e315527c1",
+      "mode": "100644"
+    },
+    {
+      "original": ".github/workflows/deploy-railway.yml",
+      "archive": "automation/archived-workflows/deploy-railway.yml",
+      "git_blob": "c9a13a901bea8f12676d476aba5064573185eec3",
+      "mode": "100644"
+    },
+    {
+      "original": ".github/workflows/deploy-to-pis.yml",
+      "archive": "automation/archived-workflows/deploy-to-pis.yml",
+      "git_blob": "ece4947a7ccdea0c4e22bc152376c633027b3881",
+      "mode": "100644"
+    },
+    {
+      "original": ".github/workflows/deploy-via-orchestrator.yml",
+      "archive": "automation/archived-workflows/deploy-via-orchestrator.yml",
+      "git_blob": "8c1d4617e17b6316c6d5bb410c6b0ce0fc2299ac",
+      "mode": "100644"
+    },
+    {
+      "original": ".github/workflows/deploy.yml",
+      "archive": "automation/archived-workflows/deploy.yml",
+      "git_blob": "36589c354c8b31038a6963101e6b00331ccc7ce9",
+      "mode": "100644"
+    },
+    {
+      "original": ".github/workflows/docs.yml",
+      "archive": "automation/archived-workflows/docs.yml",
+      "git_blob": "6f8362eb2074744157dc0f07643df96c91aa1e2b",
+      "mode": "100644"
+    },
+    {
+      "original": ".github/workflows/health-check.yml",
+      "archive": "automation/archived-workflows/health-check.yml",
+      "git_blob": "1f7f0da92419166d2763a8930ba82e7b850ead76",
+      "mode": "100644"
+    },
+    {
+      "original": ".github/workflows/issue-triage.yml",
+      "archive": "automation/archived-workflows/issue-triage.yml",
+      "git_blob": "9f11d20a660334b43df69e86d92a113c54f310d3",
+      "mode": "100644"
+    },
+    {
+      "original": ".github/workflows/labeler.yml",
+      "archive": "automation/archived-workflows/labeler.yml",
+      "git_blob": "ce19173cd864664c482c5ce4a7b78c0cc42a4849",
+      "mode": "100644"
+    },
+    {
+      "original": ".github/workflows/mass-deploy.yml",
+      "archive": "automation/archived-workflows/mass-deploy.yml",
+      "git_blob": "da386d90801a9284129bad6340523185e9ab0e45",
+      "mode": "100644"
+    },
+    {
+      "original": ".github/workflows/master-blackroad-workflow.yml",
+      "archive": "automation/archived-workflows/master-blackroad-workflow.yml",
+      "git_blob": "9af7126765af35c90a573b7fa9eb98018751b4ed",
+      "mode": "100644"
+    },
+    {
+      "original": ".github/workflows/nightly.yml",
+      "archive": "automation/archived-workflows/nightly.yml",
+      "git_blob": "98fda3ba7e39eba5fe0a71d031cdfdf3036d1953",
+      "mode": "100644"
+    },
+    {
+      "original": ".github/workflows/node-deploy.yml",
+      "archive": "automation/archived-workflows/node-deploy.yml",
+      "git_blob": "74137d3e54fdff2f6cfd96afe56b6516e5697ff4",
+      "mode": "100644"
+    },
+    {
+      "original": ".github/workflows/pr-checks.yml",
+      "archive": "automation/archived-workflows/pr-checks.yml",
+      "git_blob": "a6270418affc793bd85136cf33a57a497436692b",
+      "mode": "100644"
+    },
+    {
+      "original": ".github/workflows/python-tests.yml",
+      "archive": "automation/archived-workflows/python-tests.yml",
+      "git_blob": "45e743c7f383863015e304cfa67cef7d29549e6d",
+      "mode": "100644"
+    },
+    {
+      "original": ".github/workflows/railway-deploy.yml",
+      "archive": "automation/archived-workflows/railway-deploy.yml",
+      "git_blob": "2c3e26d2285e650a0cf0ee37c7f773392e338405",
+      "mode": "100644"
+    },
+    {
+      "original": ".github/workflows/release-notes.yml",
+      "archive": "automation/archived-workflows/release-notes.yml",
+      "git_blob": "684358dfe3d956cf05e685e6459af429f2f8644d",
+      "mode": "100644"
+    },
+    {
+      "original": ".github/workflows/release.yml",
+      "archive": "automation/archived-workflows/release.yml",
+      "git_blob": "7d9dc59ea6343302d5d45a3b0b24ffbab1e1934d",
+      "mode": "100644"
+    },
+    {
+      "original": ".github/workflows/scheduled-reports.yml",
+      "archive": "automation/archived-workflows/scheduled-reports.yml",
+      "git_blob": "ac7e5874bebc4c61818acfa79f4863d7928be384",
+      "mode": "100644"
+    },
+    {
+      "original": ".github/workflows/security-scan.yml",
+      "archive": "automation/archived-workflows/security-scan.yml",
+      "git_blob": "bcb270c3bf7a642e6f1aa9c1fdd3a345813c11d2",
+      "mode": "100644"
+    },
+    {
+      "original": ".github/workflows/security.yml",
+      "archive": "automation/archived-workflows/security.yml",
+      "git_blob": "588a29a3f1e58d77e7e7e9170486e952ae9de7b9",
+      "mode": "100644"
+    },
+    {
+      "original": ".github/workflows/self-healing.yml",
+      "archive": "automation/archived-workflows/self-healing.yml",
+      "git_blob": "b3d52d645880fe08f8f2ea20aaf759b20d0b1e5d",
+      "mode": "100644"
+    },
+    {
+      "original": ".github/workflows/stale.yml",
+      "archive": "automation/archived-workflows/stale.yml",
+      "git_blob": "ce29c5d105e616207fde5210c107792e21fd554b",
+      "mode": "100644"
+    },
+    {
+      "original": ".github/workflows/trinity-compliance.yml",
+      "archive": "automation/archived-workflows/trinity-compliance.yml",
+      "git_blob": "30211015a703f206f80db99437589cfb89a0fa69",
+      "mode": "100644"
+    },
+    {
+      "original": ".github/workflows/welcome.yml",
+      "archive": "automation/archived-workflows/welcome.yml",
+      "git_blob": "1244ef1e35c65e32c44c29ddc402a34658e2477c",
+      "mode": "100644"
+    }
+  ],
+  "runtime_inputs": [
+    {
+      "path": "package-lock.json",
+      "git_blob": "e3c8db7560e5360465e14a1ae1a9b03fd83066a6"
+    },
+    {
+      "path": "package.json",
+      "git_blob": "220cb05f5743c4be7fb06084ee166f5416d72d0a"
+    },
+    {
+      "path": "src/index.ts",
+      "git_blob": "90370d9a967856a4c307a688cc3ce83ef51f6d40"
+    },
+    {
+      "path": "tsconfig.json",
+      "git_blob": "8941ce3f4b162ca8fe1f352f6e9a626515be3fdb"
+    },
+    {
+      "path": "wrangler.toml",
+      "git_blob": "c67e87e896db5b100b733f07539a745cf635242f"
+    }
+  ],
+  "runtime_status": "UNVERIFIED: inherited vitest command has no declared Vitest dependency or tracked test corpus; source unchanged",
+  "actions_settings": "NOT_CHANGED; connector cannot disable repository-level Actions or cancel existing runs"
+}
